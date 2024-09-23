@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday, My Love!</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Link to Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            color: #333;
+        }
+        header {
+            background-color: #ffafcc;
+            padding: 20px;
+            text-align: center;
+        }
+        .logo img {
+            max-width: 100px;
+            border-radius: 50%;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+        nav ul li a {
+            font-size: 1.1rem;
+            font-weight: 600;
+            text-decoration: none;
+            color: white;
+            cursor: pointer;
+        }
+        /* Hero Section */
+        .hero {
+            background: url('https://i.ibb.co/fSRfzNw/minee3.jpg') no-repeat center center/cover;
+            text-align: center;
+            padding: 100px 20px;
+            color: #fff;
+            font-family: 'Great Vibes', cursive;
+        }
+        .hero h1 {
+            font-size: 4rem;
+            color: #ff69b4;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 1.5rem;
+            margin-bottom: 30px;
+        }
+        .hero button {
+            background-color: #ffafcc;
+            color: white;
+            font-size: 1.2rem;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 25px;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .hero button:hover {
+            background-color: #f767a3;
+        }
+
+        /* Section Styling with Background Images */
+        section.about {
+            display: none;
+            text-align: center;
+            padding: 80px 20px;
+            font-size: 1.3rem;
+            background-size: cover;
+            background-position: center;
+            color: white;
+            position: relative;
+        }
+        section.about.active {
+            display: block;
+        }
+        section.about h2 {
+            font-size: 3rem;
+            color: #ff69b4;
+            font-family: 'Great Vibes', cursive;
+            margin-bottom: 20px;
+        }
+        section.about p {
+            margin-bottom: 40px;
+        }
+        section.about img {
+            max-width: 300px;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #ffafcc;
+            color: white;
+            font-size: 1.1rem;
+        }
+
+        /* Backgrounds for each section */
+        #Love {
+            background: url('https://i.ibb.co/Tw0WwtS/Minee1.jpg') no-repeat center center/cover;
+        }
+        #Baby {
+            background: url('https://i.ibb.co/rFW3mP0/minee4.jpg') no-repeat center center/cover;
+        }
+        #Ladoo {
+            background: url('https://i.ibb.co/dkHmycv/minee2.jpg') no-repeat center center/cover;
+        }
+        #Better-Half {
+            background: url('https://i.ibb.co/YbGLMsd/minee7.jpg') no-repeat center center/cover;
+        }
+        #LOL {
+            background: url('https://i.ibb.co/GtsVJpt/minee5.jpg') no-repeat center center/cover;
+        }
+        #Birthday {
+            background: url('https://i.ibb.co/N23xk09/minee6.jpg') no-repeat center center/cover;
+        }
+
+        /* Media Queries for responsiveness */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 3rem;
+            }
+            .hero p {
+                font-size: 1.3rem;
+            }
+            section.about h2 {
+                font-size: 2.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://i.ibb.co/dkHmycv/minee2.jpg" alt="Your Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#" data-section="You">HOME</a></li>
+                <li><a href="#" data-section="Love">My Everything</a></li>
+                <li><a href="#" data-section="Baby">Chotu Baby</a></li>
+                <li><a href="#" data-section="Ladoo">Tomato</a></li>
+                <li><a href="#" data-section="Better-Half">Wife</a></li>
+                <li><a href="#" data-section="LOL">Love Of Life</a></li>
+                <li><a href="#" data-section="Birthday">Happiest Birthday</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="You" class="You active hero">
+            <h1>Happy Birthday, My Love!</h1>
+            <p>Every day with you is a blessing, but today, I celebrate the joy you bring to my life! 💖</p>
+            <button>Sending You All My Love</button>
+        </section>
+
+        <!-- Other sections -->
+        <section id="Love" class="about">
+            <h2>You are my everything my love</h2>
+            <p>The nervousness faded away the moment you smiled. Thank you for being the light of my life! ❤️</p>
+        </section>
+
+        <section id="Baby" class="about">
+            <h2>You know na you are my cutu little baby</h2>
+            <p>You will always be my cute little baby, my baby princess. I love you. 💕</p>
+        </section>
+
+        <section id="Ladoo" class="about">
+            <h2>Aaha Tamatar bade mazedaar, Wa tamatar bade mazedaar</h2>
+            <p>You are so cute just like a cute little tomato!! My cutie pie🌍</p>
+        </section>
+
+        <section id="Better-Half" class="about">
+            <h2>Waifu Ho Meri Tum</h2>
+            <p>Rishta bana lia hai toh chand tak leke jaate hai, agni ke saamne chalo 7 fere lagate hai!! 💖</p>
+        </section>
+
+        <section id="LOL" class="about">
+            <h2>Love Of Life</h2>
+            <p>You are my love of life without you I'm nothing without you !! I love you baby  🌊</p>
+        </section>
+
+        <section id="Birthday" class="about">
+            <h2>Happiest Birthday My Love</h2>
+            <p>I love you!! May this day become your best day ever!!</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024.12.24 May God Bless You!! Happiest Birthday Ladoo. P.S. I LOVE YOU! 💖</p>
+    </footer>
+
+    <!-- JavaScript for navigation functionality -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const links = document.querySelectorAll('nav ul li a');
+            const sections = document.querySelectorAll('section');
+
+            links.forEach(link => {
+                link.addEventListener('click', function(event) {
+                    event.preventDefault();
+                    
+                    // Get the target section ID
+                    const sectionId = this.getAttribute('data-section').replace(" ", "-");
+
+                    // Hide all sections
+                    sections.forEach(section => section.classList.remove('active'));
+
+                    // Show the target section
+                    document.getElementById(sectionId).classList.add('active');
+                });
+            });
+        });
+    </script>
+</body>
+</html>
